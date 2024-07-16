@@ -4,10 +4,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class LaunchGmail2 {
 
-	public static void main(String[] args) throws InterruptedException {
+	// learningSelenium.LaunchGmail
+	// public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void testdan() throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		// C:\Users\dberman\Documents\GitHub\AutomationTestRevopay\src\test\resources\executables\chromedriver.exe
