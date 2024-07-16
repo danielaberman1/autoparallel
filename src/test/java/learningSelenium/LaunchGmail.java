@@ -14,8 +14,7 @@ public class LaunchGmail {
 	public void testdan() throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		// C:\Users\dberman\Documents\GitHub\AutomationTestRevopay\src\test\resources\executables\chromedriver.exe
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\dberman\\Documents\\GitHub\\AutomationTestRevopay\\src\\test\\resources\\executables\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		// WebDriver driver = new WebDriver();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
