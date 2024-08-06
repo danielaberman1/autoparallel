@@ -101,7 +101,13 @@ public class LaunchGmail {
 			Thread.sleep(1500);
 
 
-			
+			driver.get("https://app.revopay.com/login");
+			Thread.sleep(500);
+			finish = System.nanoTime();
+			timeElapsed = finish - start;
+			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
+			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
+			Thread.sleep(1500);
 			
 
 //			driver.get("https://www.bbc.com");
