@@ -24,7 +24,7 @@ public class LaunchGmail {
 		long finish;
 
 		
-		for (int i=0; i<10; i++) {
+		for (int i=0; i<1; i++) {
 			System.out.println("Start Loop #" + i);
 			start = System.nanoTime();
 			
