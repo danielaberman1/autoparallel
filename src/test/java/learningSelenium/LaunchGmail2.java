@@ -42,6 +42,8 @@ public class LaunchGmail2 {
 //			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
 //			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
 
+			/*
+			
 			driver.get("https://www.msn.com");
 			Thread.sleep(500);
 			finish = System.nanoTime();
@@ -87,6 +89,9 @@ public class LaunchGmail2 {
 			timeElapsed = finish - start;
 			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
 			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
+			
+			
+			*/
 			
 			driver.get("https://www.scchess.com/");
 			Thread.sleep(500);
