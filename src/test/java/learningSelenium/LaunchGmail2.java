@@ -24,8 +24,8 @@ public class LaunchGmail2 {
 		long finish;
 
 		
-		for (int i=0; i<5; i++) {
-			System.out.println("Start Loop #" + i);
+		for (int i2=0; i2<5; i2++) {
+			System.out.println("Start Loop #" + i2);
 			start = System.nanoTime();
 			
 			driver.get("https://www.gmail.com");
@@ -34,64 +34,6 @@ public class LaunchGmail2 {
 			timeElapsed = finish - start;
 			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
 			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-//			driver.get("https://www.yahoo.com");
-//			Thread.sleep(500);
-//			finish = System.nanoTime();
-//			timeElapsed = finish - start;
-//			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-//			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			/*
-			
-			driver.get("https://www.msn.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			
-			
-			driver.get("https://www.latimes.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			driver.get("https://www.nytimes.com");
-			Thread.sleep(8000);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			driver.get("https://www.latimes.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-			
-			driver.get("https://app.revopay.com/login");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-			
-			driver.get("https://washingtonpost.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-			
-			*/
 			
 			driver.get("https://www.scchess.com/");
 			Thread.sleep(500);
@@ -110,20 +52,6 @@ public class LaunchGmail2 {
 			Thread.sleep(1500);
 
 			
-			
-
-//			driver.get("https://www.bbc.com");
-//			Thread.sleep(2000);
-//			finish = System.nanoTime();
-//			timeElapsed = finish - start;
-//			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-//			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			
-//			finish = System.nanoTime();
-//			timeElapsed = finish - start;
-//			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-//			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
 		}
 		
 		driver.close();

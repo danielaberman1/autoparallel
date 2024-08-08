@@ -35,62 +35,7 @@ public class LaunchGmail {
 			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
 			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
 			
-			/*
-			
-//			driver.get("https://www.yahoo.com");
-//			Thread.sleep(500);
-//			finish = System.nanoTime();
-//			timeElapsed = finish - start;
-//			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-//			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			driver.get("https://www.msn.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			
-			
-			driver.get("https://www.latimes.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			driver.get("https://www.nytimes.com");
-			Thread.sleep(8000);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			driver.get("https://www.latimes.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-			
-			driver.get("https://app.revopay.com/login");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-			
-			driver.get("https://washingtonpost.com");
-			Thread.sleep(500);
-			finish = System.nanoTime();
-			timeElapsed = finish - start;
-			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-			
-			*/
+		
 			
 			driver.get("https://www.scchess.com/");
 			Thread.sleep(500);
@@ -109,19 +54,6 @@ public class LaunchGmail {
 			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
 			Thread.sleep(1500);
 			
-
-//			driver.get("https://www.bbc.com");
-//			Thread.sleep(2000);
-//			finish = System.nanoTime();
-//			timeElapsed = finish - start;
-//			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-//			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
-
-			
-//			finish = System.nanoTime();
-//			timeElapsed = finish - start;
-//			timeElapsedMillis = TimeUnit.NANOSECONDS.toMillis(timeElapsed);
-//			System.out.println("Time Elapsed: " + timeElapsedMillis + " milliseconds");
 		}
 		
 		driver.close();
